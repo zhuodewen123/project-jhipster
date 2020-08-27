@@ -46,6 +46,16 @@ public class CacheConfiguration {
     @Bean
     public JCacheManagerCustomizer cacheManagerCustomizer() {
         return cm -> {
+            createCache(cm, cn.dgd.zdw.domain.SysWorkProcess.class.getName());
+            createCache(cm, cn.dgd.zdw.domain.SysWorkProcessdetail.class.getName());
+            createCache(cm, cn.dgd.zdw.domain.SysNotice.class.getName());
+            createCache(cm, cn.dgd.zdw.domain.TSysWorkProcess.class.getName());
+            createCache(cm, cn.dgd.zdw.domain.TSysWorkProcessdetail.class.getName());
+            createCache(cm, cn.dgd.zdw.domain.TSysNotice.class.getName());
+            createCache(cm, cn.dgd.zdw.domain.WorkProcess.class.getName());
+            createCache(cm, cn.dgd.zdw.domain.WorkProcessdetail.class.getName());
+            createCache(cm, cn.dgd.zdw.domain.Notice.class.getName());
+            createCache(cm, cn.dgd.zdw.domain.SysDataLog.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

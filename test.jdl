@@ -1,0 +1,31 @@
+
+/**
+ * 审计日志表
+ */
+entity SysDataLog {
+
+    id Long /**主键*/
+
+    tableEngName String /**表名*/
+
+    dataId String /**数据ID*/
+
+    version String /**版本号*/
+
+    dataContent String /**数据内容*/
+
+    username String /**创建人*/
+
+    realname String /**创建人姓名*/
+
+    desc String /**描述信息*/
+
+    createTime LocalDate /**创建时间*/
+
+}
+
+dto * with mapstruct
+service * with serviceClass
+paginate * with pagination
+
+

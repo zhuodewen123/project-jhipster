@@ -1,0 +1,59 @@
+{
+  "name": "SysDataLog",
+  "fields": [
+    {
+      "fieldName": "tableEngName",
+      "fieldType": "String",
+      "javadoc": "表名"
+    },
+    {
+      "fieldName": "dataId",
+      "fieldType": "String",
+      "javadoc": "数据ID"
+    },
+    {
+      "fieldName": "version",
+      "fieldType": "String",
+      "javadoc": "版本号"
+    },
+    {
+      "fieldName": "dataContent",
+      "fieldType": "String",
+      "javadoc": "数据内容"
+    },
+    {
+      "fieldName": "username",
+      "fieldType": "String",
+      "javadoc": "创建人"
+    },
+    {
+      "fieldName": "realname",
+      "fieldType": "String",
+      "javadoc": "创建人姓名"
+    },
+    {
+      "fieldName": "desc",
+      "fieldType": "String",
+      "javadoc": "描述信息"
+    },
+    {
+      "fieldName": "createTime",
+      "fieldType": "LocalDate",
+      "javadoc": "创建时间"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20200825025453",
+  "javadoc": "审计日志表",
+  "entityTableName": "sys_data_log",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "zhuodewen",
+  "applications": "*",
+  "microserviceName": "zhuodewen"
+}

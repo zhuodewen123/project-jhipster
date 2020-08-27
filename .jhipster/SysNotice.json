@@ -1,0 +1,54 @@
+{
+  "name": "SysNotice",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "javadoc": "标题"
+    },
+    {
+      "fieldName": "content",
+      "fieldType": "String",
+      "javadoc": "内容"
+    },
+    {
+      "fieldName": "sender",
+      "fieldType": "String",
+      "javadoc": "通知类型"
+    },
+    {
+      "fieldName": "sendDate",
+      "fieldType": "String",
+      "javadoc": "发件日期"
+    },
+    {
+      "fieldName": "receiver",
+      "fieldType": "LocalDate",
+      "javadoc": "接收人"
+    },
+    {
+      "fieldName": "auditOrg",
+      "fieldType": "LocalDate",
+      "javadoc": "审核机关"
+    },
+    {
+      "fieldName": "delFlag",
+      "fieldType": "String",
+      "javadoc": "删除标识"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20200806034625",
+  "javadoc": "通知公告表",
+  "entityTableName": "sys_notice",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "zhuodewen",
+  "applications": "*",
+  "microserviceName": "zhuodewen"
+}

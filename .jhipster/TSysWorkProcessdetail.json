@@ -1,0 +1,49 @@
+{
+  "name": "TSysWorkProcessdetail",
+  "fields": [
+    {
+      "fieldName": "fkWorkProcessId",
+      "fieldType": "String",
+      "javadoc": "办事进度ID"
+    },
+    {
+      "fieldName": "todoOrg",
+      "fieldType": "String",
+      "javadoc": "处理单位"
+    },
+    {
+      "fieldName": "result",
+      "fieldType": "String",
+      "javadoc": "处理结果"
+    },
+    {
+      "fieldName": "approvalComments",
+      "fieldType": "String",
+      "javadoc": "审批意见"
+    },
+    {
+      "fieldName": "receiveTime",
+      "fieldType": "LocalDate",
+      "javadoc": "接收时间"
+    },
+    {
+      "fieldName": "approvalTime",
+      "fieldType": "LocalDate",
+      "javadoc": "审核时间"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20200806034710",
+  "javadoc": "办事明细表",
+  "entityTableName": "t_sys_work_processdetail",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "zhuodewen",
+  "applications": "*",
+  "microserviceName": "zhuodewen"
+}

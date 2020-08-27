@@ -1,0 +1,39 @@
+{
+  "name": "TSysWorkProcess",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "javadoc": "事项名称"
+    },
+    {
+      "fieldName": "receiveDate",
+      "fieldType": "LocalDate",
+      "javadoc": "接收日期"
+    },
+    {
+      "fieldName": "receiveOrg",
+      "fieldType": "String",
+      "javadoc": "接收单位"
+    },
+    {
+      "fieldName": "currentProcess",
+      "fieldType": "String",
+      "javadoc": "当前进度"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20200806034610",
+  "javadoc": "办事进度表",
+  "entityTableName": "t_sys_work_process",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "zhuodewen",
+  "applications": "*",
+  "microserviceName": "zhuodewen"
+}
